@@ -4,42 +4,37 @@
     --second-color: #950740;
     --third-color: #6F2232;
     --fourth-color: #b1afaf;
-    --fifth-color: #cec5c5;
+    --fifth-color: #ececec;
     --bg-primary: #1e1e20;
-    --bg-secondary: #19191b;
+    --bg-secondary: #18181b;
   }
 
-
-.skill-Item{
-    /* border: 2px solid green; */
-}
-
 .skill-Header{
-    font-size: 32px;
+    font-size: 34px;
     color: var(--fourth-color);
     width: fit-content;
     letter-spacing: 1px;
     text-align: left;
     border-bottom: 2px solid white;
     border-radius: 3px;
-    margin: 20px 0px -14px 45px;
+    margin: 20px 0px 12px 45px;
 }
 
 .skill-List{
     display: flex;
     justify-content: left;
     text-align: left;
-    margin: 0px 0px 0px -12px;
+    margin: 0px 0px 0px -8px;
     padding:  0;
 }
 
 .skill-ListItem{
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     color: var(--fifth-color);
     width: fit-content;
-    padding: 6px 16px;
+    padding: 8px 20px;
     margin: 8px 6px;
     border: 2px solid;
     border-color: var(--third-color);
