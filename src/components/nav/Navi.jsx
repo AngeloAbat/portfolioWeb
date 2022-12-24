@@ -16,12 +16,12 @@ export default function NaviBar(){
         <div>
             <Navbar bg="dark" variant="dark" style={{position: "fixed", width: '100%', height: '60px'}}>
                 <Container>
-                <Navbar.Brand style={styles}>Angelo Abat</Navbar.Brand>
+                <Navbar.Brand href="/" style={styles}>Angelo Abat</Navbar.Brand>
                     <Nav className="me-2">
-                        <Nav.Link href="#about">About Me</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="/AboutMe">About Me</Nav.Link>
+                        <Nav.Link href="/Skills">Skills</Nav.Link>
+                        <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="/Contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

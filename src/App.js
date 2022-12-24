@@ -1,15 +1,50 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Main from './components/Main'
-import Projects from './components/project/Projects';
+
+
 import NavBar from './components/nav/Navi';
+import Err404 from './components/404';
+import Introduction from './components/main/Introduction'
+import About from './components/main/About'
+import ContactMe from './components/main/ContactMe'
+import Skills from './components/main/Skills'
+import Projects from './components/project/Projects';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Introduction/>
+  },
+  {
+    path: '*',
+    element: <Err404/>
+  },
+  {
+    path: '/AboutMe',
+    element: <About/>
+  },
+  {
+    path: '/Skills',
+    element: <Skills/>
+  },
+  {
+    path: '/Portfolio',
+    element: <Projects/>
+  },
+  {
+    path: '/Contact',
+    element: <ContactMe/>
+  }
+])
 
 function App() {
   return (
     <div>
       <NavBar />
       <div className='App App-header'>
-        <Main/>
-        <Projects/>
+        <main>
+          <RouterProvider router={router} />
+        </main>
       </div>
     </div>
   );

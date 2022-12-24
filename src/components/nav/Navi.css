@@ -39,5 +39,5 @@
     width: 100%;
     top: 60px;
     margin: 0;
-    background:  linear-gradient(to right, var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color));
+    background:  linear-gradient(to right, var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color));
 }
