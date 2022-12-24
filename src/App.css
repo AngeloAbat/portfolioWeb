@@ -1,0 +1,79 @@
+
+:root{
+  font: 16px;
+  --first-color: #C3073F;
+  --second-color: #950740;
+  --third-color: #6F2232;
+  --fourth-color: #b1afaf;
+  --bg-primary: #1e1e20;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      Scrollbar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body::-webkit-scrollbar{
+  width: 0.45rem;
+}
+body::-webkit-scrollbar-track{
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+  background: #000000;
+  border-radius: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body{
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+  margin-top: 0%;
+  height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.App {
+  /* border: 2px solid red; */
+  text-align: center;
+  width: 90%;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  border-bottom: 3px solid white;
+  border-radius: 2px;
+  width: fit-content;
+  padding: 0;
+  margin: auto;
+}
+
+
+.App-header {
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--fourth-color);
+}
+
+h1 {
+  background: linear-gradient(to right, #C3073F 60%, #950740, #6F2232 112%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.title{
+  margin-bottom: 4rem;
+}
