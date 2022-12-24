@@ -4,6 +4,7 @@ export default function ContactMe(){
     return(
         <div className="contact borders">
             <h1>Contact</h1>
+            <br/>
             <div>
                 <ul className="contact-List">
                     <li>
