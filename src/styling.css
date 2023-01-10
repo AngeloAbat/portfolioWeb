@@ -47,7 +47,7 @@
 }
 
 .navTag, .navTag::after, .navTag::before{
-    font-size: calc(1px + 2vmin);
+    font-size: calc(9px + 1.5vmin);
     display: inline-block;
     margin: 0 15px;
     color: var(--fourth-color);
