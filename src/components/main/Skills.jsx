@@ -1,6 +1,6 @@
 export default function Skills(){
     return(
-        <div className="borders">
+        <div id="Skills" className="borders">
             <h1 className="title">
                 Skills
             </h1>

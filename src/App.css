@@ -25,6 +25,7 @@ body::-webkit-scrollbar-thumb{
 
 .borders{
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 body{
@@ -45,7 +46,7 @@ a{
 .App {
   /* border: 2px solid red; */
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 
 li{
@@ -73,7 +74,7 @@ h1{
 }
 
 h1 {
-  background: linear-gradient(to right, #C3073F 80%, #950740, #6F2232 112%);
+  background: linear-gradient(to right, #6F2232, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F, #C3073F ,#6F2232);
   background-clip: text;
   -webkit-text-fill-color: transparent
 }

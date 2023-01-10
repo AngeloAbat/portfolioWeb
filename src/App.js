@@ -10,32 +10,32 @@ import ContactMe from './components/main/ContactMe'
 import Skills from './components/main/Skills'
 import Projects from './components/project/Projects';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Introduction/>
-  },
-  {
-    path: '*',
-    element: <Err404/>
-  },
-  {
-    path: '/AboutMe',
-    element: <About/>
-  },
-  {
-    path: '/Skills',
-    element: <Skills/>
-  },
-  {
-    path: '/Portfolio',
-    element: <Projects/>
-  },
-  {
-    path: '/Contact',
-    element: <ContactMe/>
-  }
-])
+// const router = createBrowserRouter([
+//   {
+//     path: '/Introduction',
+//     element: <Introduction/>
+//   },
+//   {
+//     path: '*',
+//     element: <Err404/>
+//   },
+//   {
+//     path: '/AboutMe',
+//     element: <About/>
+//   },
+//   {
+//     path: '/Skills',
+//     element: <Skills/>
+//   },
+//   {
+//     path: '/Portfolio',
+//     element: <Projects/>
+//   },
+//   {
+//     path: '/Contact',
+//     element: <ContactMe/>
+//   }
+// ])
 
 function App() {
   return (
@@ -43,7 +43,12 @@ function App() {
       <NavBar />
       <div className='App App-header'>
         <main>
-          <RouterProvider router={router} />
+          {/* <RouterProvider router={router} /> */}
+          <Introduction/>
+          <About/>
+          <Skills/>
+          <Projects/>
+          <ContactMe/>
         </main>
       </div>
     </div>

@@ -13,7 +13,7 @@
     font-size: 34px;
     color: var(--fourth-color);
     width: fit-content;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: left;
     border-bottom: 2px solid white;
     border-radius: 3px;
@@ -40,4 +40,29 @@
     border-color: var(--third-color);
     border-radius: 20px !important;
     background: var(--bg-secondary);
+}
+
+.navTag-Holder{
+    display: flex;
+}
+
+.navTag, .navTag::after, .navTag::before{
+    font-size: calc(1px + 2vmin);
+    display: inline-block;
+    margin: 0 15px;
+    color: var(--fourth-color);
+    transition: .5s;
+    border-top: 1px hidden var(--bg-primary);
+    border-bottom: 1px hidden var(--fourth-color);
+    transition-timing-function: ease;
+}
+
+
+
+.navTag:hover{
+    border-top: 1px solid var(--bg-primary);
+    border-bottom: 1px solid var(--fourth-color);
+    color: var(--fifth-color);
+    height: 0;
+    z-index:1;
 }
