@@ -1,60 +1,64 @@
-export default function Skills(){
-    return(
-        <div id="Skills" className="borders">
-            <h1 className="title">
-                Skills
-            </h1>
-            <div className="skill-Item">
-                <h2 className="skill-Header">Front End</h2>
-                <div className='skill-List'>
-                    <ul>
-                        <li className="skill-ListItem">HTML</li>
-                        <li className="skill-ListItem">CSS</li>
-                        <li className="skill-ListItem">JavaScript</li>
-                        <li className="skill-ListItem">Bootstrap</li>
-                        <li className="skill-ListItem">Styled</li>
-                        <li className="skill-ListItem">React.JS</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="skill-Item">
-                <h2 className="skill-Header">Back End</h2>
-                <div className='skill-List'>
-                    <ul>
-                        <li className="skill-ListItem">Node.JS</li>
-                        <li className="skill-ListItem">Express.JS</li>
-                        <li className="skill-ListItem">Lambda(AWS)</li>
-                        <li className="skill-ListItem">API Gateway(AWS)</li>
-                        <li className="skill-ListItem">Cognito(AWS)</li>
-                        <li className="skill-ListItem">MongoDB</li>
-                        <li className="skill-ListItem">DynamoDB(AWS)</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="skill-Item">
-                <h2 className="skill-Header">Soft Skills</h2>
-                <div className='skill-List'>
-                    <ul>
-                        <li className="skill-ListItem">Communication</li>
-                        <li className="skill-ListItem">Teamwork</li>
-                        <li className="skill-ListItem">Adaptability</li>
-                        <li className="skill-ListItem">Time Management</li>
-                        <li className="skill-ListItem">Organizational</li>
-                        <li className="skill-ListItem">Critical Thinking</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="skill-Item">
-                <h2 className="skill-Header">Hard Skills</h2>
-                <div className='skill-List'>
-                    <ul>
-                        <li className="skill-ListItem">Engineering</li>
-                        <li className="skill-ListItem">Data Analysis</li>
-                        <li className="skill-ListItem">Project Management</li>
-                        <li className="skill-ListItem">Bilingual (Filipino & English)</li>
-                    </ul>
-                </div>
-            </div>
+const everySkill = [
+    {
+      skillName: "Front End",
+      skillItems: ["HTML", "CSS", "JavaScript", "Bootstrap", "Styled", "React.JS"],
+    },
+    {
+      skillName: "Back End",
+      skillItems: [
+        "Node.JS",
+        "Express.JS",
+        "Discord.JS",
+        "Lambda(AWS)",
+        "API-Gateway(AWS)",
+        "Cognito(AWS)",
+        "MongoDB",
+        "DynamoDB(AWS)",
+      ],
+    },
+    {
+      skillName: "Soft Skills",
+      skillItems: [
+        "Communication",
+        "Teamwork",
+        "Adaptibility",
+        "Time Management",
+        "Organization",
+        "Critical Thinking",
+      ],
+    },
+    {
+      skillName: "Hard Skills",
+      skillItems: [
+        "Engineering",
+        "Data Analysis",
+        "Project Management",
+        "Bilingual (Filipino & English)",
+      ],
+    },
+  ];
+  
+  const skillStructure = everySkill.map((item, index) => {
+    return (
+      <div className="skill-Item" key={index}>
+        <h2 className="skill-Header">{item.skillName}</h2>
+        <div className="skill-List">
+          <ul>
+            {item.skillItems.map((item, index) => {
+              return <li className="skill-ListItem" key={index}>{item}</li>;
+            })}
+          </ul>
         </div>
-    )
-}
+      </div>
+    );
+  });
+  
+  export default function Skills() {
+    return (
+      <div id="Skills" className="borders">
+        <h1 className="title">Skills</h1>
+        {skillStructure}
+      </div>
+    );
+  }
+  
