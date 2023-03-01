@@ -55,7 +55,8 @@ const everySkill = [
   
   export default function Skills() {
     return (
-      <div id="Skills" className="borders">
+      <div className="borders">
+        <div id="Skills" className=" borderMargin"/>
         <h1 className="title">Skills</h1>
         {skillStructure}
       </div>

@@ -2,7 +2,8 @@ import linkedInLogo from "../../public/icon/linkedInLogo.png"
 
 export default function ContactMe(){
     return(
-        <div id="ContactMe" className="contact borders">
+        <div className="contact borders">
+            <div id="ContactMe" className=" borderMargin"/>
             <h1>Contact</h1>
             <br/>
             <div>

@@ -28,11 +28,16 @@ body::-webkit-scrollbar-thumb{
   margin-bottom: 200px;
 }
 
+.borderMargin{
+  margin: 0;
+  padding-top: 78px;
+}
+
 body{
   align-items: center;
   justify-content: center;
   padding: 0rem;
-  margin-top: 0%;
+  margin-left: 0%;
   height: 100vh;
   background-color: var(--bg-primary);
 }
@@ -44,6 +49,7 @@ a{
 
 
 .App {
+  size: 70px;
   /* border: 2px solid red; */
   text-align: center;
   width: 80%;
@@ -64,7 +70,7 @@ h1{
 
 .App-header {
   margin: auto;
-  min-height: 100vh;
+  min-height: 100vh - 90px;
   display: flex;
   flex-direction: column;
   align-items: center;

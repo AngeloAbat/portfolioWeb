@@ -6,6 +6,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function NaviBar(){
 
+    // function addMargin() {
+    //     window.scrollTo(0, window.pageYOffset + 2000);
+    // }
+    
+    // window.addEventListener('hashchange', addMargin());
+
     const styles = {
         fontSize: "calc(14px + 2vmin)",
         borderbottom: '0px',
@@ -15,7 +21,7 @@ export default function NaviBar(){
     }
 
     return (
-        <div>
+        <div className='navDiv'>
             <Navbar bg="dark" variant="dark" style={{position: "fixed", width: '100%', height: '60px'}}>
                 <Container>
                 <Navbar.Brand href="/" style={styles}>Angelo Abat</Navbar.Brand>

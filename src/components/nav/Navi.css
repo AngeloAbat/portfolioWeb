@@ -41,3 +41,11 @@
     margin: 0;
     background:  linear-gradient(to right, var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color), var(--first-color), var(--second-color), var(--third-color));
 }
+
+
+.navDiv{
+    /* display:block;
+    height: 60px;
+    margin-top: -60px; */
+    /* visibility: hidden; */
+}

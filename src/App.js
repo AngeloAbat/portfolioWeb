@@ -8,7 +8,7 @@ import Introduction from './components/main/Introduction'
 import About from './components/main/About'
 import ContactMe from './components/main/ContactMe'
 import Skills from './components/main/Skills'
-import Projects from './components/project/Projects';
+import Projects from './components/project/Projects.jsx';
 
 // const router = createBrowserRouter([
 //   {
