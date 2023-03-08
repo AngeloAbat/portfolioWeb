@@ -1,0 +1,108 @@
+body{
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+
+}
+.Copernican{
+    z-index: 0;
+    top: 10%;
+    left: -8%;
+    margin: auto;
+    padding: 0;
+    color: red;
+    height: 80%;
+    width: 66%;
+    position: absolute;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.Copernican a{
+    padding: 0;
+    margin: 0;
+    border: 5px solid orange;
+}
+
+.Copernican div{
+    position: absolute;
+    border-radius: 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Copernican img{
+    height: 140px;
+    top: 45%;
+    left: 45%;
+}
+
+.Copernican .ring{
+    border: 2px solid var(--fourth-color);
+    border-radius: 1000px;
+}
+
+.Copernican .center1{
+    padding: 12%;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.Copernican .center2{
+    padding: 15%;
+    /* border-style: ; */
+
+}
+.Copernican .center3{
+    padding: 21%;
+    /* border-style: ; */
+
+}
+.Copernican .center4{
+    padding: 26%;
+    /* border-style: ; */
+
+}
+
+.Planet{
+    background-color: white;
+}
+
+
+.Planet1{
+    left: 86%;
+    top:70%;
+    height:14%;
+    width: 14%;
+}
+
+.Planet2{
+    left: -2%;
+    top:27%;
+    height:11%;
+    width: 11%;
+}
+
+.Planet3{
+    left: 43%;
+    top:96%;
+    height:9%;
+    width: 9%;
+}
+
+.Planet4{
+    left:74%;
+    bottom:86%;
+    height:9%;
+    width: 9%;
+}
+
+.Planet5{
+    height:40px;
+    width: 40px;
+    border: 2px solid green;
+}

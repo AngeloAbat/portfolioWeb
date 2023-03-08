@@ -1,0 +1,96 @@
+:root{
+    font: 20px;
+    --firstpick-color: #bab700;
+    --secondpick-color: #60935d;
+    --thirdpick-color: #14342b;
+    --fourthpick-color: #b1afaf;
+    --fifthpick-color: #ececec;
+    --bg-primary: #1e1e20;
+    --bg-secondary: #18181b;
+
+    --first-color: #c30729;
+    --second-color: #950740;
+    --third-color: #6F2232;
+    --fourth-color: #b1afaf;
+    --fifth-color: #ececec;
+    --bg-primary: #1e1e20;
+    --bg-secondary: #18181b;
+  }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      Scrollbar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.detailBox::-webkit-scrollbar{
+    width: 0.45rem;
+  }
+.detailBox::-webkit-scrollbar-track{
+    background: rgb(52, 52, 57);
+  }
+.detailBox::-webkit-scrollbar-thumb{
+    background: linear-gradient(70deg, rgba(17,0,210,1) 16%, rgba(255,0,0,1) 100%);
+    border-radius: 10px;
+  }
+  
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.detailBoxBackground {
+  z-index: 1;
+    border-radius: 13px 0px 0px 13px;
+    filter: blur(5px);
+    font-size: 25px;
+    margin-top: 20px;
+    /* color: var(--fourthpick-color);
+    background-color: var(--fourthpick-color); */
+    color: var(--bg-primary);
+    background-color: var(--bg-primary);
+    width: 40%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+    float: right;
+  }
+
+/* .detailBoxBackground::before, detailBoxBackground::after{
+  content: "WASSUP HERE";
+  background: 2px solid orange;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+} */
+
+.detailBox{
+  transform: translate(100%, -4%);
+  font: bold;
+  font-size: 25px;
+  margin-top: 60px;
+  color: var(--fifth-color);
+  /* color: var(--bg-primary); */
+  width: 40%;
+  height: 96%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  float: right;
+}
+
+.detailBox h1{
+  float: left;
+  /* color: var(--thirdpick-color); */
+  color: var(--first-color);
+  /* border-bottom: 3px solid var(--secondpick-color); */
+  border-bottom: 3px solid var(--fourth-color);
+  border-radius: 2px;
+  width: fit-content;
+  padding: 0;
+  margin: auto;
+}
+
+.detailBox .breaker{
+  height: 90px;
+}

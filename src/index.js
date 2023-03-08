@@ -1,15 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styling.css';
-import './index.css';
+import SolarSys from './components/solar/mainSolar';
+
 import App from './App';
+import Err404 from './components/404';
 import reportWebVitals from './reportWebVitals';
+
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+  
+  {
+    path: '/old',
+    element: <App/>
+  },
+  {
+    path: '*',
+    element: <Err404/>
+  },
+  {
+    path: '/solar',
+    element: <SolarSys/>
+  }
+])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />  
   </React.StrictMode>
 );
 

@@ -58,6 +58,7 @@ const everySkill = [
       <div className="borders">
         <div id="Skills" className=" borderMargin"/>
         <h1 className="title">Skills</h1>
+        <br/>
         {skillStructure}
       </div>
     );

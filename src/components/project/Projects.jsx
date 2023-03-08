@@ -24,7 +24,8 @@ export default function Projects(){
         <div className="borders">
             <div id="Portfolio" className=" borderMargin"/>
             <h1>Portfolio</h1>
-            <p>list of group projects as well as solo projects I worked in</p>
+            <br/>
+            <p>List of all my professional projects</p>
             <ul>
                 {projectItem}
             </ul>

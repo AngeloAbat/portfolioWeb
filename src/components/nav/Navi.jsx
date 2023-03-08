@@ -25,12 +25,13 @@ export default function NaviBar(){
             <Navbar bg="dark" variant="dark" style={{position: "fixed", width: '100%', height: '60px'}}>
                 <Container>
                 <Navbar.Brand href="/" style={styles}>Angelo Abat</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Nav className="navTag-Holder me-2">
                         {/* <Anchor className='NavAnchor'> */}
-                            <a className='navTag' href="#About">About Me</a>
-                            <a className='navTag' href="#Skills">Skills</a>
-                            <a className='navTag' href="#Portfolio">Portfolio</a>
-                            <a className='navTag' href="#ContactMe">Contact</a>
+                            <Nav.Link className='navTag' href="#About">About Me</Nav.Link>
+                            <Nav.Link className='navTag' href="#Skills">Skills</Nav.Link>
+                            <Nav.Link className='navTag' href="#Portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className='navTag' href="#ContactMe">Contact</Nav.Link>
                         {/* </Anchor> */}
 
                     </Nav>

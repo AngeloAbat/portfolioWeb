@@ -1,6 +1,6 @@
 :root{
     font: 16px;
-    --first-color: #C3073F;
+    --first-color: #c30729;
     --second-color: #950740;
     --third-color: #6F2232;
     --fourth-color: #b1afaf;
@@ -65,4 +65,5 @@
     color: var(--fifth-color);
     height: 0;
     z-index:1;
+    padding-bottom:2px ;
 }

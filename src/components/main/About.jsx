@@ -3,10 +3,11 @@ export default function About(){
     return(
         <div className=" borders">
             <div id="About" className=" borderMargin"/>
-            <h1  className="Headers">About Me!</h1>
-            <br/>
-            <p>I'm a Junior Web Developer seeking for a position where I can apply and hone my Web Development skills. Working in multiple projects helped me gain confidence and experience in creating an efficient and strong website.</p>
-            <h1><b>Website is still under construction</b></h1>
+            <div className="AboutItem">
+                <h1  className="Headers">About Me!</h1>
+                <br/>
+                <p> I'm a Junior Web Developer that recently graduated from California State Long Beach Software Development Bootcamp, during my course, I learned how to create and develop websites as well as partner with my peers to create full stack projects. Working in multiple websites and projects with different people helped me learn the importance of a strong development team as well as what it means to be part of a team; during the process of these projects I have learned to create a secure and efficient website as well as shit my pants</p>
+            </div>
         </div>
     )
 }
