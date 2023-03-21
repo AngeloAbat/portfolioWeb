@@ -64,6 +64,7 @@
 } */
 
 .detailBox{
+  scroll-behavior: smooth;
   transform: translate(100%, -4%);
   font: bold;
   font-size: 25px;

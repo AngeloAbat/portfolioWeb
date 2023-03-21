@@ -15,4 +15,15 @@
     padding: 0;
     margin: 0;
     overflow-y: hidden;
+    min-width: 700px;
 }
+
+.headerName{
+  position: absolute;
+  font-family: 'Orbitron', serif;
+  color:  white;
+  /* background: linear-gradient( rgba(255,0,0,1) 1%, rgba(17,0,210,1) 99%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+

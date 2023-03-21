@@ -10,7 +10,7 @@ export default function Projects(){
         return(
             <li className="skill-ListItem">
                 <div >
-                    <img src={king}/>
+                    <img src={king} alt={index}/>
                     <h2>{item.name}</h2>
                     <p>{item.description}</p>
                     <p>{item.tools.SomeShit}</p>
@@ -24,7 +24,7 @@ export default function Projects(){
         <div className="borders">
             <div id="Portfolio" className=" borderMargin"/>
             <h1>Portfolio</h1>
-            <br/>
+            <div className="breaker"/>
             <p>List of all my professional projects</p>
             <ul>
                 {projectItem}

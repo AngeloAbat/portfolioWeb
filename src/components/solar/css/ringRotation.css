@@ -1,0 +1,83 @@
+:root{
+    --animateTest: copernicusRingRotation 20s linear 0s infinite;
+    --animateTestR: copernicusRingRotation 20s linear 0s reverse infinite; 
+}
+
+@keyframes copernicusRingRotation{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.center1::after, .center1::before{
+    z-index: -4;
+    content: "";
+    position: absolute;
+    inset: -5%;
+    border-radius: inherit;
+}
+
+.center2::after, .center2::before{
+    z-index: -4;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+}
+
+.center3::after, .center3::before{
+    z-index: -4;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+}
+
+.center4::after, .center4::before{
+    z-index: -4;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+}
+
+/* CENTER NUMBER ONE */
+.center1::after{
+    /* border-right:   ;
+    border-left: ; */
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-style: solid;
+    animation: var(--animateTest)
+}
+
+.center1::before{
+    border-bottom: 12px  white;
+    border-top: 12px  white;
+    border-style: dotted;
+    animation: var(--animateTestR)
+}
+
+/* CENTER NUMBER TWO */
+/* CENTER NUMBER THREE */
+
+/* CENTER NUMBER FOUR */
+.center4::after{
+    /* border-right:   ;
+    border-left: ; */
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-style: solid;
+    animation: var(--animateTest)
+}
+
+.center4::before{
+    border-bottom: 12px  white;
+    border-top: 12px  white;
+    border-style: dotted;
+    animation: var(--animateTestR)
+}

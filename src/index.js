@@ -11,19 +11,14 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
-  
   {
-    path: '/old',
-    element: <App/>
+    path: '/',
+    element: <SolarSys/>
   },
   {
     path: '*',
     element: <Err404/>
   },
-  {
-    path: '/solar',
-    element: <SolarSys/>
-  }
 ])
 
 

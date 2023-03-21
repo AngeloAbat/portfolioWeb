@@ -5,7 +5,7 @@ export default function ContactMe(){
         <div className="contact borders">
             <div id="ContactMe" className=" borderMargin"/>
             <h1>Contact</h1>
-            <br/>
+            <div className="breaker"/>
             <div>
                 <ul className="contact-List">
                     <li>

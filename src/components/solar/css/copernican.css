@@ -10,7 +10,7 @@ body{
     left: -8%;
     margin: auto;
     padding: 0;
-    color: red;
+    /* color: red; */
     height: 80%;
     width: 66%;
     position: absolute;
@@ -20,51 +20,59 @@ body{
     text-align: center;
     align-items: center;
 }
-.Copernican a{
-    padding: 0;
-    margin: 0;
-    border: 5px solid orange;
-}
 
-.Copernican div{
+.Copernican div, .Copernican a{
+    padding: 0%;
+    margin: 0%;
     position: absolute;
-    border-radius: 500px;
+    border-radius: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
 
 }
 
+.Copernican a{
+    z-index: 12;
+}
+
 .Copernican img{
-    height: 140px;
+    z-index: -2;
+    width: 21%;
     top: 45%;
     left: 45%;
 }
 
 .Copernican .ring{
+    z-index: -1;
     border: 2px solid var(--fourth-color);
-    border-radius: 1000px;
-}
+    border-radius: 100%;
+} 
 
 .Copernican .center1{
-    padding: 12%;
-    border-width: 5px;
-    border-style: dotted;
+    z-index: 4;
+    padding: 15%;
+    border-width: 6px;
+    transform: rotate(20deg);
 }
 
+
 .Copernican .center2{
-    padding: 15%;
-    /* border-style: ; */
+    z-index: 3;
+    padding: 19%;
+    transform: rotate(130deg);
 
 }
 .Copernican .center3{
-    padding: 21%;
-    /* border-style: ; */
-
+    z-index: 2;
+    padding: 22%;
+    border-width: 6px;
+    transform: rotate(330deg);
 }
 .Copernican .center4{
+    z-index: 1;
     padding: 26%;
-    /* border-style: ; */
+    transform: rotate(195deg);
 
 }
 
@@ -74,35 +82,33 @@ body{
 
 
 .Planet1{
-    left: 86%;
-    top:70%;
-    height:14%;
-    width: 14%;
+    z-index: 12;
+    left: 45%;
+    top:95%;
+    height:10%;
+    width: 10%;
 }
 
 .Planet2{
-    left: -2%;
-    top:27%;
-    height:11%;
-    width: 11%;
+    z-index: 12;
+    left: 45%;
+    top:95%;
+    height:8.7%;
+    width: 8.7%;
 }
 
 .Planet3{
-    left: 43%;
+    z-index: 12;
+    left: 45%;
     top:96%;
     height:9%;
     width: 9%;
 }
 
 .Planet4{
-    left:74%;
-    bottom:86%;
+    z-index: 12;
+    left: 45%;
+    top:95%;
     height:9%;
     width: 9%;
-}
-
-.Planet5{
-    height:40px;
-    width: 40px;
-    border: 2px solid green;
 }

@@ -1,6 +1,7 @@
 import "./css/solar.css"
 import "./css/detailBox.css"
 import "./css/copernican.css"
+import "./css/ringRotation.css"
 
 import About from "../main/About"
 import ContactMe from "../main/ContactMe"
@@ -35,6 +36,7 @@ export default function SolarSys(){
         )
     })
 
+
     return(
         <div className="solarSystem">
             <div className="detailBoxBackground"/>
@@ -45,20 +47,23 @@ export default function SolarSys(){
                 <Projects/>
                 <ContactMe/>
             </div>
+            <h1 className="headerName">Angelo Abat</h1>
             <div className="Copernican">
                 <div className="center1 ring">
-                    <div className="Planet Planet1"></div>
+                    <a href="#Portfolio" className="Planet Planet1"></a>
                 </div>
                 <div className="center2 ring">
-                    <div className="Planet Planet2"></div>
+                    <a href="#Skills"className="Planet Planet2"></a>
                 </div>
                 <div className="center3 ring">
-                    <div className="Planet Planet3"></div>
+                    <a href="#ContactMe" className="Planet Planet3"></a>
                 </div>
                 <div className="center4 ring">
-                    <div className="Planet Planet4"></div>
+                    <a href="#About" className="Planet Planet4"></a>
                 </div>
-                <img src={Astronaut} alt="Center"/>
+                <a href="/solar">
+                    <img src={Astronaut} alt="Center"/>
+                </a>
             </div>
             {/* <img src={Astronaut} alt="CHICKEN"/> */}
         </div>
