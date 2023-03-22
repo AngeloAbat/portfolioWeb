@@ -53,15 +53,6 @@
     float: right;
   }
 
-/* .detailBoxBackground::before, detailBoxBackground::after{
-  content: "WASSUP HERE";
-  background: 2px solid orange;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-
-} */
 
 .detailBox{
   scroll-behavior: smooth;

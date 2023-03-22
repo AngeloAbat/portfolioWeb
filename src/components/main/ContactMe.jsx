@@ -22,7 +22,7 @@ export default function ContactMe(){
                     </li>
                     <li>
                         <a href="https://github.com/AngeloAbat">
-                            github:  https://github.com/AngeloAbat
+                            GitHub:  https://github.com/AngeloAbat
                         </a>
                     </li>
                 </ul>
@@ -32,7 +32,7 @@ export default function ContactMe(){
             <div className="breaker"/>
             <div className="breaker"/>
             <div className="breaker"/>
-            <bold>Hello! Thank you for taking the time to check my Portfolio Website!</bold>
+            <bold>Hello! Thank you for taking the time to check my Portfolio Website! If you would like to connect please use the links that are provided above.</bold>
         </div>
     )
 }

@@ -77,7 +77,40 @@ body{
 }
 
 .Planet{
-    background-color: white;
+    background-color: cornsilk;
+}
+
+@keyframes planetPulse{
+    3%{
+        padding: 0%;
+        border: 0px solid cornsilk
+    }
+    15%{
+        border: 2px solid cornsilk
+    }
+    25%{
+        inset: -1.4rem;
+        border: 0px solid 
+    }
+}
+
+.Planet::after{
+    z-index: 3;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    animation: planetPulse 4s infinite ease-in-out;
+}
+
+.Planet::before{
+    z-index: -4;
+    content: "";
+    position: absolute;
+    inset: -0.5rem;
+    border-radius: inherit;
+    background-color: blanchedalmond;
+    filter: blur(12px);
 }
 
 

@@ -1,6 +1,8 @@
 :root{
     --animateTest: copernicusRingRotation 20s linear 0s infinite;
     --animateTestR: copernicusRingRotation 20s linear 0s reverse infinite; 
+    --animateTest2: copernicusRingRotation 50s linear 0s infinite;
+    --animateTestR2: copernicusRingRotation 50s linear 0s reverse infinite; 
 }
 
 @keyframes copernicusRingRotation{
@@ -47,19 +49,19 @@
 
 /* CENTER NUMBER ONE */
 .center1::after{
-    /* border-right:   ;
-    border-left: ; */
-    border-bottom: 3px solid white;
-    border-top: 3px solid white;
+    /* border-right:   ; */
+    /* border-left: ; */ 
+    border-bottom: 3px solid #BAB700;
+    border-top: 3px solid #BAB700;
     border-style: solid;
-    animation: var(--animateTest)
+    animation: var(--animateTestR)
 }
 
 .center1::before{
-    border-bottom: 5px  white;
-    border-top: 5px  white;
+    border-bottom: 5px  #BAB700;
+    border-top: 5px  #BAB700;
     border-style: dotted;
-    animation: var(--animateTestR)
+    animation: var(--animateTest)
 }
 
 /* CENTER NUMBER TWO */
@@ -69,15 +71,15 @@
 .center4::after{
     /* border-right:   ;
     border-left: ; */
-    border-bottom: 5px solid white;
-    border-top: 5px solid white;
+    border-bottom: 5px solid #0DDCA1;
+    border-top: 5px solid #0DDCA1;
     border-style: solid;
-    animation: var(--animateTest)
+    animation: var(--animateTest2)
 }
 
 .center4::before{
-    border-bottom: 5px  white;
-    border-top: 5px  white;
+    border-bottom: 6px  #BAB700;
+    border-top: 6px  #BAB700;
     border-style: dotted;
-    animation: var(--animateTestR)
+    animation: var(--animateTestR2)
 }
