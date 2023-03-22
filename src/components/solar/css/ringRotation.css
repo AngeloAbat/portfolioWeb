@@ -49,15 +49,15 @@
 .center1::after{
     /* border-right:   ;
     border-left: ; */
-    border-bottom: 5px solid white;
-    border-top: 5px solid white;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
     border-style: solid;
     animation: var(--animateTest)
 }
 
 .center1::before{
-    border-bottom: 12px  white;
-    border-top: 12px  white;
+    border-bottom: 5px  white;
+    border-top: 5px  white;
     border-style: dotted;
     animation: var(--animateTestR)
 }
@@ -76,8 +76,8 @@
 }
 
 .center4::before{
-    border-bottom: 12px  white;
-    border-top: 12px  white;
+    border-bottom: 5px  white;
+    border-top: 5px  white;
     border-style: dotted;
     animation: var(--animateTestR)
 }

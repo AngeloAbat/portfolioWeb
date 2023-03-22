@@ -6,7 +6,7 @@ body{
 }
 .Copernican{
     z-index: 0;
-    top: 10%;
+    top: 13%;
     left: -8%;
     margin: auto;
     padding: 0;
@@ -36,12 +36,12 @@ body{
     z-index: 12;
 }
 
-.Copernican img{
+/* .Copernican img{
     z-index: -2;
     width: 21%;
     top: 45%;
     left: 45%;
-}
+} */
 
 .Copernican .ring{
     z-index: -1;
@@ -52,26 +52,26 @@ body{
 .Copernican .center1{
     z-index: 4;
     padding: 15%;
-    border-width: 6px;
+    border-width: 3px;
     transform: rotate(20deg);
 }
 
 
 .Copernican .center2{
     z-index: 3;
-    padding: 19%;
+    padding: 20%;
     transform: rotate(130deg);
 
 }
 .Copernican .center3{
     z-index: 2;
-    padding: 22%;
+    padding: 25%;
     border-width: 6px;
     transform: rotate(330deg);
 }
 .Copernican .center4{
     z-index: 1;
-    padding: 26%;
+    padding: 30%;
     transform: rotate(195deg);
 
 }

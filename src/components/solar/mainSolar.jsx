@@ -61,9 +61,7 @@ export default function SolarSys(){
                 <div className="center4 ring">
                     <a href="#About" className="Planet Planet4"></a>
                 </div>
-                <a href="/solar">
-                    <img src={Astronaut} alt="Center"/>
-                </a>
+                <img className="astro" src={Astronaut} alt="Center"/>
             </div>
             {/* <img src={Astronaut} alt="CHICKEN"/> */}
         </div>
