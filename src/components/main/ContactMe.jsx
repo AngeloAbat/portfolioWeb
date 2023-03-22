@@ -21,10 +21,18 @@ export default function ContactMe(){
                         </a>
                     </li>
                     <li>
-                        github:  https://github.com/AngeloAbat
+                        <a href="https://github.com/AngeloAbat">
+                            github:  https://github.com/AngeloAbat
+                        </a>
                     </li>
                 </ul>
             </div>
+            <div className="breaker"/>
+            <div className="breaker"/>
+            <div className="breaker"/>
+            <div className="breaker"/>
+            <div className="breaker"/>
+            <bold>Hello! Thank you for taking the time to check my Portfolio Website!</bold>
         </div>
     )
 }
