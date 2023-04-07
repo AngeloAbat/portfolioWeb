@@ -51,15 +51,15 @@
 .center1::after{
     /* border-right:   ; */
     /* border-left: ; */ 
-    border-bottom: 3px solid #BAB700;
-    border-top: 3px solid #BAB700;
+    border-bottom: 3px solid var(--regular-color);
+    border-top: 3px solid var(--regular-color);
     border-style: solid;
     animation: var(--animateTestR)
 }
 
 .center1::before{
-    border-bottom: 5px  #BAB700;
-    border-top: 5px  #BAB700;
+    border-bottom: 5px  var(--regular-color);
+    border-top: 5px  var(--regular-color);
     border-style: dotted;
     animation: var(--animateTest)
 }
@@ -71,15 +71,15 @@
 .center4::after{
     /* border-right:   ;
     border-left: ; */
-    border-bottom: 5px solid #0DDCA1;
-    border-top: 5px solid #0DDCA1;
+    border-bottom: 5px solid var(--regular-color);
+    border-top: 5px solid var(--regular-color);
     border-style: solid;
     animation: var(--animateTest2)
 }
 
 .center4::before{
-    border-bottom: 6px  #BAB700;
-    border-top: 6px  #BAB700;
+    border-bottom: 6px  var(--regular-color);
+    border-top: 6px  var(--regular-color);
     border-style: dotted;
     animation: var(--animateTestR2)
 }

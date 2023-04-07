@@ -1,7 +1,13 @@
 const everySkill = [
     {
       skillName: "Front End",
-      skillItems: ["HTML", "CSS", "JavaScript", "Bootstrap", "Styled", "React.JS"],
+      skillItems: ["HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Styled",
+        "React.JS"
+      ],
     },
     {
       skillName: "Back End",

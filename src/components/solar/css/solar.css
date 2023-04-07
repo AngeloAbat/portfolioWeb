@@ -10,11 +10,16 @@
   }
 
 .astro{
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   z-index: -2;
   width: 13%;
+  left: 44%;
   /* height: inherit; */
-  /* top: 45%;
-  left: 45%; */
+  /* top: 45%;*/
+ 
 }
 
 

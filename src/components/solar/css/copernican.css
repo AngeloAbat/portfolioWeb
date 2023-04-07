@@ -83,14 +83,14 @@ body{
 @keyframes planetPulse{
     3%{
         padding: 0%;
-        border: 0px solid cornsilk
+        border: 0cqw solid cornsilk
     }
     15%{
-        border: 2px solid cornsilk
+        border: 0.2cqw solid cornsilk
     }
     25%{
         inset: -1.4rem;
-        border: 0px solid 
+        border: 0cqw solid 
     }
 }
 
@@ -113,6 +113,9 @@ body{
     filter: blur(12px);
 }
 
+.Planet:hover{
+    color: inherit;
+}
 
 .Planet1{
     z-index: 12;

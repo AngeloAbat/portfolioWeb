@@ -1,5 +1,7 @@
 :root{
     font: 20px;
+    --regular-color: cornsilk;
+
     --firstpick-color: #bab700;
     --secondpick-color: #60935d;
     --thirdpick-color: #14342b;
@@ -74,9 +76,9 @@
 .detailBox h1{
   float: left;
   /* color: var(--thirdpick-color); */
-  color: var(--first-color);
+  color: var(--regular-color);
   /* border-bottom: 3px solid var(--secondpick-color); */
-  border-bottom: 3px solid var(--fourth-color);
+  border-bottom: 3px solid var(--regular-color);
   border-radius: 2px;
   width: fit-content;
   padding: 0;

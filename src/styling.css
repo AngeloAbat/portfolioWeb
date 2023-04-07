@@ -1,5 +1,5 @@
 :root{
-    font: 16px;
+    font: 1cqw;
     --first-color: #c30729;
     --second-color: #950740;
     --third-color: #6F2232;
@@ -10,7 +10,7 @@
   }
 
 .skill-Header{
-    font-size: 34px;
+    font-size: 1.7cqw;
     color: var(--fourth-color);
     width: fit-content;
     letter-spacing: 2px;
@@ -30,7 +30,7 @@
 
 .skill-ListItem{
     display: inline-block;
-    font-size: 16px;
+    font-size: 1cqw;
     letter-spacing: 1px;
     color: var(--fifth-color);
     width: fit-content;
