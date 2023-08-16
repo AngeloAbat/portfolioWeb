@@ -1,27 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SolarSys from './components/solar/mainSolar';
-
-import App from './App';
-import Err404 from './components/404';
 import reportWebVitals from './reportWebVitals';
 
+import SimpleClient from './simple/simple';
+import Err404 from './public/Err404'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <SolarSys/>
-  },
-  {
     path: '*',
     element: <Err404/>
   },
   {
-    path: '/App',
-    element:<App />
+    path: '/',
+    element: <SimpleClient/>
   }
 ])
 
