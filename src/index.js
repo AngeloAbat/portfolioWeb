@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
+import './public/css/style.css'
+import './public/css/animation.css'
+
 import reportWebVitals from './reportWebVitals';
 
-import SimpleClient from './simple/simple';
+import SimpleClient from './public/simple';
 import Err404 from './public/Err404'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
