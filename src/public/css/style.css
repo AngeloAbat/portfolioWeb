@@ -1,10 +1,14 @@
-.content{
-    height: 100vh;
+.sectionContainer, .content{
+    min-height: 100vh;
     margin: auto;
+    padding-top: auto;
     /* border: 2px solid green; */
-    padding-top: 45vh;
     /* background-color: rgb(236, 236, 236); */
     background-color: rgb(218, 207, 181);
+}
+
+.sectionFiller{
+    padding-top: 45vh;
 }
 
 .introduction, .introductionBG{
@@ -36,4 +40,12 @@
 
 .body{
     color: orange;
+}
+
+.aboutMeParagraph{
+    font-size: 1.6cqw;
+}
+
+h1{
+    font-weight: bolder;
 }

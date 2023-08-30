@@ -2,6 +2,8 @@ body {
   /* background-color: rgb(236, 236, 236); */
   background-color: rgb(234, 215, 203);
   font-family: 'HK Grotesk', sans-serif;
+  overflow-y: visible;
+  animation: scrollFadeIn 7.4s;
   /* height: 100%; */
   width: 100%;
   overflow-x: hidden;
@@ -13,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 h1, h2, h3, h4, h5, h6, p {
