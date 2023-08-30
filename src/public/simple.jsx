@@ -1,5 +1,6 @@
 import LandingSection from "./sections/Landing"
 import ProfileSection from "./sections/profile"
+import ContactSection from "./sections/Contact"
 
 export default function SimpleClient(){
     return(
@@ -9,6 +10,7 @@ export default function SimpleClient(){
             <div>
                 <LandingSection/>
                 <ProfileSection/>
+                <ContactSection/>
             </div>
         </div>
     )
