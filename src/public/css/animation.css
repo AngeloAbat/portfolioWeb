@@ -1,13 +1,14 @@
 @keyframes IntroFade {
+  0%  { visibility: visible;}
   18% { opacity: 0; }
   65% { opacity: 1; }
-  100%{ opacity: 0;}
+  100%{ opacity: 0; visibility: visible;}
   }
 
 @keyframes IntroBG {
-  0% {opacity: 1;}
+  0% {opacity: 1; visibility: visible;}
   90%{opacity: 1;}
-  100%{opacity: 0;}
+  100%{opacity: 0; visibility: visible;}
 }
 
 @keyframes scrollFadeIn{

@@ -12,7 +12,7 @@ export default function ContactSection(){
                 Me Email: 
                 <a href="">alagmay.abat23@gmail.com</a>
             </p>
-            <iframe width="930" height="523" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="930" height="523" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)"  allowfullscreen ></iframe>
         </div>
     )
 }

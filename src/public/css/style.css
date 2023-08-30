@@ -54,3 +54,7 @@ h1{
     width: 4cqw;
     height: 4cqw;
 }
+
+.hideMe{
+    visibility: hidden;
+}
