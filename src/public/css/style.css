@@ -51,8 +51,14 @@ h1{
 }
 
 .picture{
+    z-index: 4;
     width: 4cqw;
     height: 4cqw;
+}
+
+.picture2{
+    width: 45cqw;
+    height: 45cqw;
 }
 
 .hideMe{

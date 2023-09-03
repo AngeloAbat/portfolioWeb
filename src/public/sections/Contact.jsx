@@ -1,4 +1,4 @@
-let me = require('../img/me.jpg')
+let Me = require("../img/me.jpg")
 
 export default function ContactSection(){
     return(
@@ -14,7 +14,8 @@ export default function ContactSection(){
                 Me Email: 
                 <a href="">alagmay.abat23@gmail.com</a>
             </p>
-            <image src={me} alt="A picture of me"/>
+            <img className="picture2" src={Me} alt="picture of me "/>
+            <br/>
             <iframe width="930" height="523" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)"  allowfullscreen ></iframe>
         </div>
     )
