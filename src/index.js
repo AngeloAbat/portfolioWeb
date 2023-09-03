@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 import SimpleClient from './public/simple';
 import Err404 from './public/Err404'
+import Private from './private/Private';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <SimpleClient/>
+  },
+  {
+    path: '/homeworks',
+    element: <Private/>
   }
 ])
 
