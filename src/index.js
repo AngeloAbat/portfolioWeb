@@ -5,12 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import './public/css/style.css'
 import './public/css/animation.css'
+import './private/css/private.css'
 
 import reportWebVitals from './reportWebVitals';
 
 import SimpleClient from './public/simple';
 import Err404 from './public/Err404'
 import Private from './private/Private';
+import Tables from './private/sections/tables';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -26,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: '/homeworks',
     element: <Private/>
+  },
+  {
+    path: '/homeworks/tables',
+    element: <Tables/>
   }
 ])
 

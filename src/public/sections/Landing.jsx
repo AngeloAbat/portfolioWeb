@@ -1,5 +1,5 @@
 let Astronaut = require('../icon/astronautTransp1.png')
-let Me = require('../img/me.jpg')
+
 
 export default function LandingSection(){
     return(
