@@ -1,5 +1,5 @@
 .tableHolder{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 60cqw;
     margin: auto;
 }
@@ -8,7 +8,7 @@ td,th {
     border: 2px solid black;
     text-align: left;
     padding: 0.5cqw 2cqw;
-    margin: 0;
+    margin: 0px;
 }
 
 tr:nth-child(odd){

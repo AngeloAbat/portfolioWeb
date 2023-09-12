@@ -14,22 +14,22 @@ export default function Tables(){
                     <th>Location</th>
                     <th>Cuisine</th>
                 </tr>
-                <tr className="odd">
+                <tr >
                     <td>Shabuya</td>
                     <td>2025 Diamond Blvd, Concord, CA 94520</td>
                     <td>Chinese Hot Pot</td>
                 </tr>
-                <tr className="even">
+                <tr >
                     <td>Genki</td>
                     <td>1581 Sycamore Ave Ste 8, Hercules, CA 94547</td>
                     <td>Japanese Sushi Bar</td>
                 </tr>
-                <tr className="odd">
+                <tr>
                     <td>Max's Restaurant</td>
                     <td>1511 El Camino Real, South SF, CA 94080</td>
                     <td>Filipino Cuisine</td>
                 </tr>
-                <tr className="even">
+                <tr>
                     <td>Jumping Spoon</td>
                     <td>1375 Sycamore Ave, Hercules, Ca 94547</td>
                     <td>Korean Cuisine</td>

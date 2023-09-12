@@ -1,6 +1,8 @@
 import LandingSection from "./sections/Landing"
 import ProfileSection from "./sections/profile"
 import ContactSection from "./sections/Contact"
+import EducationSection from "./sections/Education"
+import ToolsSection from "./sections/Tools"
 
 export default function SimpleClient(){
     return(
@@ -10,6 +12,8 @@ export default function SimpleClient(){
             <div>
                 <LandingSection/>
                 <ProfileSection/>
+                <EducationSection/>
+                <ToolsSection/>
                 <ContactSection/>
             </div>
         </div>

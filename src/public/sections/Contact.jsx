@@ -11,12 +11,12 @@ export default function ContactSection(){
             </p>
             <br />
             <p>
-                Me Email: 
+                My Email: 
                 <a href="">alagmay.abat23@gmail.com</a>
             </p>
-            <img className="picture2" src={Me} alt="picture of me"/>
+            {/* <img className="picture2" src={Me} alt="picture of me"/> */}
             <br/>
-            <iframe width="930" height="523" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)"  allowfullscreen ></iframe>
+            {/* <iframe width="930" height="523" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)"  allowfullscreen ></iframe> */}
         </div>
     )
 }
