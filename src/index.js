@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 import SimpleClient from './public/simple';
 import Err404 from './public/Err404'
-import Resume from './public/sections/resume';
+import Resume from './public/sections/resume'; 
 // import Private from './private/Private';
 // import Tables from './private/sections/tables';
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
   {
     path: '/resume',
     element: <Resume/>
-,  }
+  },
   // {
   //   path: '/homeworks',
   //   element: <Private/>

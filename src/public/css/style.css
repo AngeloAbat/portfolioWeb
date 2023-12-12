@@ -29,11 +29,11 @@
 .introductionBG{
     height: 100vh;
     background-color: antiquewhite;
-    animation: IntroBG 7s;
+    animation: IntroBG 4s;
 }
 
 .fadeAnimation{
-    animation: IntroFade 6s;
+    animation: IntroFade 3s;
 }
 
 *{

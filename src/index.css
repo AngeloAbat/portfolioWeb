@@ -3,7 +3,7 @@ body {
   background-color: rgb(234, 215, 203);
   font-family: 'HK Grotesk', sans-serif;
   overflow-y: visible;
-  animation: scrollFadeIn 7.4s;
+  animation: scrollFadeIn 4.3s;
   /* height: 100%; */
   width: 100%;
   overflow-x: hidden;
